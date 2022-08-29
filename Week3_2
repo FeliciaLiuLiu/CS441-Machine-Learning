@@ -1,0 +1,17 @@
+1. In the Classifying Images programming assignment
+Ans:
+A. Decision Forests has the best performance when the depth is 16
+
+False:
+A. Decision Forests has the best performance when the depth is 8
+
+
+2. Stretching Bounding Box Images help to improve accuracy in the following cases
+Ans:
+A. when using Naive Bayes and a Gaussian Distribution
+B. when using Decision Forests
+
+False:
+A. it never helps
+
+
