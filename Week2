@@ -59,3 +59,24 @@ B. is an iterative process that splits data into a training set for training the
 
 False:
 A. is an iterative process to train a model with a training set and tests it with the same set to compute error in each iteration 
+
+
+
+
+7. The k-Nearest Neighbor classifier is
+Ans:
+A. a method that reports the class of the majority of the k-closest elements in the training data to the new example
+B. similar to the Nearest Neighbor classifier but the class reported considers the class of the k-closest elements in the training data instead of only 1
+
+False:
+A. can only classify k new examples at a time
+
+
+
+8. Among the issues faced by the k-Nearest Neighbor method, for example, in a task to classify images we would find
+Ans:
+A. it would be hard to collect a compact training set with enough representative images to achieve good performance
+
+False:
+A. it would be hard to define the features for each example
+B. it would not be possible to find the k-closest examples in the training set
