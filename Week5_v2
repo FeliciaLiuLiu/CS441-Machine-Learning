@@ -1,0 +1,41 @@
+1. What is the value of the mean square error in Problem 1 when we apply the linear regression in the original coordinates
+(Section 1.1.1 in the notebook)?
+Ans:
+
+
+False:
+A. 1.67
+
+
+
+
+2. Question 2
+In Problem 2, we applied linear regression in two scenarios: one in the original coordinates (Section 2.1.1) 
+and one for the cubic root of the labels (Sections 2.1.2 and 2.1.3). In your opinion, which one of the two gives a better prediction, and why?
+Ans:
+A. Original coordinates, because the mean square error is smaller.
+
+False:
+A. Cubic root of the labels, because cubic root residuals have smaller values.
+B. Cubic root of the labels, because the mean square error is smaller.
+
+
+3. In Problem 3, we see that the plots have diagonal strips. Why do you think this happens?
+Ans:
+A. Because the output variable (number of rings) takes integer values.
+
+False:
+A. Because the input gender variable is discrete. 
+B. Because we use logarithmic transformation. 
+
+
+4. Based on your observation in Problem 1 of the notebook, 
+which of the following relations is more accurate in predicting the variable Y (blood sulfate level) 
+based on the variable X (hours since injection)? (here, a^b means a to the power of b)
+Ans:
+
+
+
+False:
+A. Y = a X ^ b for some a, b > 0
+
