@@ -1,0 +1,66 @@
+1. In regression models, error caused by variance in modeling
+Ans:
+A. can happen when the best model parameters are hard to estimate, and thus the model is not too specific.
+
+False:
+A. can be due to the fact that, although it is possible to estimate the best possible parameters for a given data 
+(i.e., the parameters can be very specific), the model will have trouble explaining new data
+B. can be attributed to phenomena inherent to the process being modeled that are impossible to be explained by the input features
+
+
+
+2. Information Criteria metrics have lower cost with
+Ans:
+A. Both lower number of coefficients and lower error in predictions
+
+
+False:
+A. Lower error in predictions only
+B. Lower number of coefficients in \betaβ only
+C. Lower values in predictions only
+
+
+
+3. M-estimators have a cost function that
+Ans:
+A. gives large weight to errors at points with low residuals
+B. gives low weight to errors at points with high residuals
+
+False:
+A. gives a weight at points that is proportional to the residual value
+B. gives high weight for errors at points with high residuals
+
+
+
+
+4. Which of the following are examples of models that generalize beyond traditional regression assumptions?
+Ans:
+A. Logistic Regression models
+B. Regression models for probabilities of counts
+
+False:
+A. Linear Regression models
+B. Support Vector Machines
+
+
+
+
+5. Elastic Net
+Ans:
+A. uses a parameter 0 \leq \alpha \leq 10≤α≤1 that weights between Lasso and Ridge regression
+B. with a high value of \alphaα, will make the model closer to a Lasso which penalizes including more variables
+C. with a small value of \alphaα, will make the model closer to a Ridge regressoin which penalizes large coefficients
+
+False:
+A. applies regularization based on Information Criteria
+
+
+
+6. Lasso Regression
+Ans:
+A. may remove correlated explanatory variables
+B. may give a value of zero to coefficients of explanatory variables 
+
+False:
+A. gives small but non-zero values to coefficients of explanatory variables with less importance
+B. penalizes the L2 norm of the coefficients
