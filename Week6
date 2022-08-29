@@ -1,0 +1,58 @@
+1. Some of the difficulties to deal with high-dimensional data include:
+Ans:
+A. distance between data items in higher dimensions are bigger as dimensionality increases
+B. the number of histogram boxes grow significantly with the number of dimensions
+
+False:
+A. the noise increases with the number of dimensions
+B. scatterplots cannot be used at all
+
+
+2. A blob in a dataset
+Ans:
+A. is a subset of nearby points that are farther from other points
+B. can be transformed through affine transformations that preserve collinearity and ratios of distances between points
+
+
+False:
+A. has to be analyzed through different tools than those that can be applied to a whole dataset
+B. is a compact subset with a fraction of the data and that has the same mean and variance of the whole dataset
+
+
+
+3. Mean in a dataset
+Ans:
+A. is usually computed as a vector that holds the mean for each feature of all items
+
+
+False:
+A. is usually computed as the vector that holds the mean value for each item across all its features
+
+
+
+4. In Principal Component Analysis on a dataset or blob with N data items and d features
+Ans:
+A. we can construct a representation that uses less features than d
+B. the subset of features with the largest eigenvalues in the covariance matrix of the dataset are selected
+C. 
+the error of the model that results of the selection of ss features with respect to the original model 
+can be computed as a function of the eigenvalues that correspond to the d-sd−s not selected features
+
+False:
+A. we can construct a model with only a subset of the data items of the original set
+B. the subset of features with the smallest mean are selected
+
+
+
+5. The covariance matrix for a dataset with NN items and dd features
+Ans:
+A. is a square matrix with d rows and d columns
+B. uses Σi,j to hold the covariance between feature i and feature j
+C. uses Σi,i to hold the variance of feature i
+D. is a symmetric matrix
+E. has non-negative eigenvalues
+
+
+False:
+A. holds the covariance between item i and item j at Σi,j
+B. is a square matrix with NN rows and NN columns
