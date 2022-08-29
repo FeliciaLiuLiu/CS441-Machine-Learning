@@ -1,0 +1,61 @@
+Quiz:
+1. The Nearest-Neighbor classifier is a method that
+Ans:
+A. stores training examples instead of constructing a general model of training data
+
+False:
+A. uses probability distributions to model training data
+B. constructs a general model of the training data
+
+
+2. Select the statements that describe what the Nearest-Neighbor classifier does when classifying a new example
+Ans:
+A. it reports the class of the closest example to the new example in the training set
+B. it computes the distance from the new example and all the examples in the training set
+
+False:
+A. if a data item is removed from the training set, it will always report the same class as it would if the data item was not removed
+
+
+
+3. The step that takes more time in k-Nearest-Neighbor classification is
+Ans:
+A. the computation of distances to all the examples in the training set
+
+False:
+A. the voting of the class of the k-closest training examples
+B. adding one more training example
+C. the construction of a general model for the training data
+
+
+
+4. The Naive Bayes classification
+Ans:
+A. assumes that the different features are independent from each other conditioned in the class
+B. constructs a general model of the training data
+C. computes the probability distribution P(y) of all classes y from the training examples
+
+False:
+A. stores all the training examples instead of constructing a model of training data
+B. has no assumptions on the dependance among different features
+C. computes the probability distribution of all the potential feature values P(X)
+
+
+
+5. The cost of classifying a new test example using Naive Bayes is
+Ans:
+A. linear in the number of classes since it needs to compute the probability of each class label given the example features
+
+False:
+A. exponential in the number of classes since it needs to make computations of distances between classes
+B. constant and independent of the number of classes
+
+
+
+6. Cross-Validation
+Ans:
+A. allows us to compare the performance of different options of models to represent the data
+B. is an iterative process that splits data into a training set for training the model and a testing set to compute error in each iteration
+
+False:
+A. is an iterative process to train a model with a training set and tests it with the same set to compute error in each iteration 
