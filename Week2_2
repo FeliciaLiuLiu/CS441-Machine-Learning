@@ -1,0 +1,26 @@
+1. In the Basic Classification programming assignment, when fitting the features $x^{(i)}$ on a gaussian distribution while  ignoring missing values
+Ans:
+A. missing values are ignored both when computing the mean and when computing the standard deviation
+
+False:
+A. missing values are ignored when computing the mean but are set to 0 when computing the standard deviation
+
+
+
+2. In the Basic Classification programming assignment, consider the performance of the Naive Bayes Classifier on evaluation data. 
+Which one is more accurate, the one where missing entries are regarded as 0s  (1.2 after Task 4) 
+or the one where missing entries are regarded as NANs and ignored (2.1 after Task 6)?
+Ans:
+A. Similarly accurate when missing entries are kept as 0s than when they are ignored in the computation
+
+False:
+A. Less accurate when missing entries are kept as 0s than when they are ignored in the computation 
+B. More accurate when missing entries are kept as 0s than when they are ignored in the computation
+
+
+
+
+
+
+
+
