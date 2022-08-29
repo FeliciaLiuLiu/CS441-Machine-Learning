@@ -1,0 +1,75 @@
+1. The stopping conditions for a branch of the recursive algorithm to build decision trees include
+Ans:
+A. when reaching a maximum depth
+B. when all the elements in a branch correspond to the same class
+
+False:
+A. when there is no features left to test
+
+
+2. Information Gain for a dataset that results in two subsets
+Ans:
+A. is high when each of the resulting subsets have members of only one class
+
+False:
+A. is high when the resulting subsets have the same number of elements
+B. is low when each of the resulting subsets have members of only one class
+
+3. The support vector machine learning approach
+Ans:
+A. is a classifier whose classes are identified through either positive or negative values and is trained with a cost function known as hinge loss
+B. learns a linear decision boundary
+
+False:
+A. learns a quadratic decision boundary
+
+
+
+4. The hinge loss function of pair of prediction and true value is
+Ans:
+A. large for an incorrect prediction
+B. 0 for a correct prediction of a feature vector away from the boundary
+
+False:
+A. negative for a correct prediction of a feature vector really close to the boundary
+B. 0 for a correct prediction of a feature vector really close to the boundary
+
+
+5. The regularization constant is found through
+Ans:
+A. cross-validation on several options to select the one with best accuracy
+
+False:
+A. a single run of Stochastic Gradient Descent
+
+
+6. In the Decision Tree method for classification
+Ans:
+A. nodes have tests that evaluate some feature
+B. 
+the class for an item is decided by visiting the tree starting at the root node 
+and passing the tests that lead to a leave which decides the class that the item belongs to
+
+
+False:
+A. there is a unique tree for each training set
+B. a tree resulting from training is difficult to implement
+
+
+7. The support vector machine learning approach
+Ans:
+A. has a cost function that tries to ensure that all training examples lie at the right side of the boundary 
+while encouraging a margin so it is robust to future examples
+
+False:
+A. cannot be applied to multi-class problems
+B. has a high cost in classification of one example
+
+
+8. An SVM decision boundary
+Ans:
+A. includes points on $a^Tx+b=0$, where the SVM parameters are $a$, the slope, and $b$, the intercept 
+B. is a hyperplane that separates positive data from negative data
+
+False:
+A. is the true class of a data sample
