@@ -1,0 +1,42 @@
+1. Consider the problem of fitting music location and the plots that show the residuals before and after applying the Box-Cox transformation. 
+Was this transformation helpful or not?
+
+Ans:
+A. The Box-Cox transformation helped a little since R^2 grew without approaching 1
+
+False:
+A. The Box-Cox transformation helped a lot since R^2 grew without approaching 1
+B. The Box-Cox transformation did not help since R^2 grew
+C. The Box-Cox transformation did not help since R^2 didn't change
+
+
+2. Consider the application of Ridge Regression and Lasso Regression when fitting music latitude. 
+What of the following parameters lead to better performance?
+Ans:
+
+
+False:
+A. Lasso Regression with log(lambda) around -2 and 17 features considered
+B. Lasso Regression with log(lambda) around -2 and 64 features considered
+
+
+3. Consider the plots produced in the problem of predicting credit card defaults that show the number of non-zero coefficients, 
+degrees of freedom, and missclasification error. Which of the following regression model achieves better results?
+
+Ans:
+Elastic net with alpha=0.5 and 20 non-zero coefficients (degrees of freedom+1)
+
+False:
+A. Lasso with 9 non-zero coefficients (degrees of freedom+1)
+B. Ridge with 24 non-zero coefficients (degrees of freedom+1)
+
+
+
+
+4. In the problem of predicting credit card defaults, what is the missclasification error for the regression model that corresponds to the best results?
+Ans:
+A. Around 0.19
+
+False:
+A. Around 0.20
+B. Around 0.21
