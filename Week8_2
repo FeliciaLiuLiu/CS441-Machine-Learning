@@ -1,0 +1,51 @@
+1. In sklearn.cluster.KMeans, if we do not specify the number of clusters, how many clusters will we have?
+Ans:
+
+
+False:
+A. 2
+B. 4
+
+
+
+2. For the k-means implementation that we had in the programming assignment, 
+for k=2, what is the cluster center for the cluster with label 1? 
+(To answer this question, you will need to go back to the programming assignment and write some code to find the answer. 
+If you have already submitted the programming assignment, there is no need to re-submit the programming assignment after doing these calculations).
+
+Ans:
+A. [44.5,  1.4, 19.6,  0.6,  6.5,  7.3 ,  3.4,  11.2,   5.16]
+
+
+False:
+A. [ 8.2,  1. , 29.1,  1. ,  8.4, 16.3,  5. , 24.2,  6.9]
+B. [25. ,  1.8, 28.1,  0.9,  8.7,  9.5,  2.1, 17.1,  6.7]
+C. [12.3,  1.2, 29. ,  1. ,  8.6, 14.4,  4.2, 22.4,  6.9]
+
+
+
+
+3. If we have a clustering of N data points in a space with dimension d, what is the range of the silhouettte score?
+Ans:
+
+
+False:
+A. [0,N-1]
+B. [-d,d]
+
+
+
+
+4. For the k-means implementation that we had in the programming assignment, 
+for k=2, what is the sum of square distances of the points in cluster 1 with respect to their cluster center? 
+(To answer this question, you will need to go back to the programming assignment and write some code to find the answer. 
+If you have already submitted the programming assignment, 
+there is no need to re-submit the programming assignment after doing these calculations).
+
+Ans:
+A. 1301.3
+
+False:
+A. 1139.7
+B. 1614.5
+C. 275.9
