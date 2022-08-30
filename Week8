@@ -1,0 +1,66 @@
+1. Clustering 
+Ans:
+A. represents each cluster through the cluster center or through a representative item of the cluster
+B. groups blobs of close by data
+
+False:
+A. when using an agglomerative strategy, it recursively splits the dataset into smaller clusters
+B. groups blobs of data according to a provided feature label
+
+
+
+2. Agglomerative clustering:
+Ans:
+A. uses inter-cluster distance as the criterion to decide what clusters to merge
+B. starts with a cluster per data item and repetitively merges clusters
+
+False:
+A. recursively splits the dataset into smaller clusters
+B. requires some criteria to identify what cluster to split and where to split it
+
+
+
+3. Group average inter-cluster distance between clusters A and B
+Ans:
+
+
+False:
+A. is the distance between the farthest pair of elements (a,b) with a∈A,b∈B
+
+
+
+4. Vector quantization
+Ans:
+A. new pieces of signals or data sources are characterized through a histogram of the codewords that are matched from their patches
+B. builds a codebook that results from a clustering process where each cluster represents a codeword
+C. is a method that allows us to cluster similar local patterns found in patches from signals or data sources
+D. allows to deal with signals or data sources that come at different scales as long as they can be grouped into patches
+
+
+False:
+A. new pieces of signals or data sources do not need to be split into equally sized patches
+B. builds a codebook that is a histogram of the feature values in the signals
+C. requires that signals or data sources are time sequences
+
+
+
+
+5. Divisive clustering:
+Ans:
+A. recursively splits the dataset into smaller clusters
+B. requires some criteria to identify what cluster to split and where to split it
+
+False:
+A. starts with a cluster per data item and repetitively merges clusters
+B. uses inter-cluster distance as the criterion to decide what clusters to merge
+
+
+
+6. Single-link inter-cluster distance between clusters A and B
+Ans:
+A. is the distance between the closest pair of elements (a,b) with a∈A,b∈B
+
+
+False:
+A. is the average distance between pairs of elements (a,b) with a∈A,b∈B
+B. is the distance between the farthest pair of elements (a,b) with a∈A,b∈B
