@@ -1,0 +1,47 @@
+1. When using Singular Value Decomposition to decompose a matrix $X$ as the product of three matrices USV
+Ans:
+A. the matrices UU and VV are orthonormal
+B. the matrix SS is diagonal with non-negative elements in the diagonal
+
+False:
+A. the matrix SS is an orthonormal matrix
+B. there is only one possible decomposition always
+
+
+
+2. The following method is the best suited to make a 2-dimensional representation of a high-dimensional dataset 
+that preserves ratios of distances between data items
+Ans:
+A. Canonical Correlation Analysis
+
+False:
+A. Principal Components Analysis
+B. Principal Coordinates Analysis 
+
+
+
+
+3. The covariance matrix Σ of a dataset X
+Ans:
+A. 
+Can be decomposed through SVD as \Sigma V = V \frac{S^2}{N}ΣV=V 
+N
+S 
+2
+
+False:
+A. is not relevant for Principal Components Analysis
+
+
+
+4. NIPALS is a method that
+Ans:
+A. efficiently computes the largest principal component of X
+B. is a good choice to compute a few principal components when X is large
+
+
+False:
+A. provides all the principal components of X without numerical issues
+B. is impossible to apply when some item values are missing
+
+
