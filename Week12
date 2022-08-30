@@ -1,0 +1,79 @@
+1. A Neural Network
+
+Ans:
+A. usually performs better when trained with datasets of the "appropriate" size, which is usually large.
+B. is a method for classification
+C. finds piece-wise linear boundaries that separate data items that belong to different classes
+D. is usually slow to train, even more when it has many layers with many units.
+E. are suitable to identify appropriate features in the data
+
+
+False:
+A. usually have a non-hierarchical structure
+B. finds boundaries linear that separate data items that belong to different classes
+C. requires that good features have already been identified for the data
+D. accurately models the behavior of the neural networks in the human brain
+
+
+
+
+
+
+2. A ReLU unit in a Neural Network
+Ans:
+A. Activates the unit output so that it transfers the input to the output when the input is positive, otherwise the output is 0
+B. In combination with the linear weight of the inputs and the bias, splits the inputs into points that are at one side of a boundary or at the other side.
+
+
+False:
+A. Activates the unit output so that it transfers the input to the output when the input is between 0-1, otherwise the output is 0
+B. In combination with the linear weight of the inputs and the bias, splits the inputs into points that are outside a band at both sides of a boundary.
+
+
+
+
+
+3. The cost function of a NN
+Ans:
+A. has a loss component
+B. is used to find the parameters that minimizes it by exploring its gradient through Stochastic Gradient Descent
+C. has a regularization component whose parameter \lambdaλ is used to reduce weights and is found through cross-validation
+
+
+False:
+A. is exactly the same as the one used in the Support Vector Machine
+B. has no similarity with the one used in the Support Vector Machine
+
+
+
+
+
+4. In a deep neural network
+Ans:
+A. there is a sequence, or stack, of layers
+B. different layers may have different types of units
+C. there usually is one input layer, several hidden layers and one output layer with the softmax function
+D. negative effects due to redundant units can be prevented through dropout, 
+which allows the network to be robust to redundant units that may be ignored at some layer
+
+
+
+False:
+A. all the layers have to be of the same type
+B. redundant units have no negative impact when training the network
+
+
+
+
+
+5. Backpropagation is an algorithm that
+Ans:
+A. has a backward pass where the gradient of the loss is propagated from the output towards the input
+B. has a forward pass to propagate inputs to the output
+C. searches for the parameters that reduce the loss at the output of a unit (every unit) through stochastic gradient descent
+
+
+False:
+A. has a backward pass to propagate inputs to the output
+B. has a forward pass where the gradient of the loss is propagated from the output towards the input
+
