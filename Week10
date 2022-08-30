@@ -1,0 +1,63 @@
+1. Markov Chain Models
+Ans:
+A. use a set of states for representation purposes
+B. use probabilistic transitions between states
+C. may model a number of chains each of them being a biased random walk on the graph that models the states and their transition probabilities
+
+
+False:
+A. always have time-varying transition probabilities from a given state
+B. have deterministic transitions between states
+C. represent states as continuous variables
+
+
+
+
+
+
+2. The Markov Property
+
+Ans:
+A. states that the active state at some step depends only on the active state at the previous step
+
+False:
+A. states that the active state at some step has no dependence on the active state at the previous step
+
+
+
+3. Hidden Markov Models
+Ans:
+A. use a set of Hidden States and Transition Probabilities among them as in Markov Chains
+B. associate a set of observations linked to the hidden states
+C. have an emission distribution that models the probability of an observation in a given state
+D. can be used to infer the Markov chain that most likely produced a sequence of observations
+
+
+False:
+A. require that all the observations have a probability different than zero for all the states 
+B. have an emission distribution that models the probability of a state being a final state
+
+
+
+
+
+4. The Viterbi algorithm
+Ans:
+A. uses Maximum a Posteriori Inference to estimate the Markov chain that maximizes the posterior probability of the states 
+conditioned on the observations and the other components of the Hidden Markov Model
+
+B. uses a cost function that only considers the logs of pairs of probabilities, one that accounts for the transition probabilities, 
+and the other that accounts for the emission probabilities
+
+C. is an algorithm that follows a dynamic programming approach
+
+
+
+False:
+A. is a heuristic method to maximize the posterior that only requires the emission distribution 
+to estimate the most likely sequence of estates for a sequence of observations
+
+B. requires to explore the whole set of potential combinations of sequences of states and observations
+
+
+
