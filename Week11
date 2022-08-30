@@ -1,0 +1,60 @@
+1. A Boltzmann Machine
+Ans:
+A. has a probability distribution with a very large number of possible hidden values 
+which are computationally too expensive to compute in many practical applications
+
+B. has only binary hidden values
+
+C. is a particular case of Discrete Markov Random Fields
+
+
+
+False:
+A. restricts connections from observable nodes to only one to some hidden node
+B. is a particular case of a Markov Chain Model that generalizes the Markov property to many states
+
+
+
+2. A Discrete Markov Random Field
+
+Ans:
+A. extends the Boltzmann Machine to allow for discrete values for the nodes
+
+
+False:
+A. extends the Boltzmann Machine to meet the Markov Property
+
+
+
+
+3. Mean Field Inference
+Ans:
+A. uses a simpler probability distribution than the one in the original model
+B. aims to maximize the intensity in the connections between adjacent nodes
+C. finds an approximate solution to maximize the posterior probability of the hidden values in the model conditioned on the observations
+D. reduces the search space by taking advantage of the neighborhood structure of the hidden values
+
+
+False:
+A. is different to the Maximum A Posteriori Inference only in that it is not a Dynamic Programming approach
+B. is different to Variational Inference in that it uses the original probability distribution of the graphical model
+
+
+
+
+4. KL divergence
+Ans:
+A. allows to maximize the likelihood of a dataset under one distribution by minimizing the KL divergence between the two distributions
+B. between two distributions QQ and PP is minimized by minimizing the variational free energy under probability QQ
+C. is used to develop a tractable distribution to apply Variational Inference
+D. measures the dissimilarity between two distributions
+
+
+False:
+A. between two distributions QQ and PP is minimized by maximizing the variational free energy under probability QQ
+B. allows to maximize the likelihood of a dataset under one distribution by maximizing the KL divergence between the two distributions
+C. meets the triangle inequality that is one of the conditions for it to be a metric
+
+
+
+
