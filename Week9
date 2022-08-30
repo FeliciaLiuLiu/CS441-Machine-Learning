@@ -1,0 +1,36 @@
+1. Expectation Maximization is an algorithm in which
+Ans:
+A. data items are clustered based on a mixture of probability distributions
+B. each cluster is modeled by a probability distribution
+C. customization to the type of probability distribution being modeled is needed
+
+
+False:
+A. no customization to the type of probability distributions being modeled is needed
+B. data items are clustered based on categorical features
+C. the global minimum of the expected value of the log-likelihood with respect to the assignments of points to clusters is guaranteed to be found
+
+
+
+
+2. The M-Step in the EM algorithm
+Ans:
+A. determines the parameters of the probability distributions for each cluster that include their mixing weights
+
+False:
+A. determines the weights that assign points to each specific distribution or cluster
+
+
+
+3. The E-Step in the EM algorithm
+Ans:
+A. determines the weights that assign points to each specific distribution or cluster
+
+
+False:
+A. determines the parameters of the probability distributions for each cluster that include their mixing weights
+
+
+
+
+
