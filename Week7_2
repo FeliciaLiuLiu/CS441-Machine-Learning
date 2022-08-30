@@ -1,0 +1,26 @@
+1. In the PCA programming assignment, Task 1, the mean-squared error is
+Ans:
+A. similar for classes "truck" and "automobile"
+B. larger for class "horse" than for class "deer"
+
+
+False:
+A. larger for class "bird" than for class "cat"
+B. similar for classes "horse" and "deer"
+
+
+2. In the PCA programming assignment, contrasting the results achieved in Task 3, PCoA and Task 7, 
+that preprocesses the Similarity Matrix to satisfy the Euclidean Property, the resulting PCoA
+Ans:
+A. Reconstructed dimensions in Task 3 span a wider range than in Task 7
+B. class airplane is relatively closer to animal classes in Task 7 than in Task 3
+
+False:
+A. Reconstructed dimensions in Task 7 span a wider range than in Task 3
+B. class airplane is relatively closer to animal classes in Task 3 than in Task 7
+
+
+
+
+
+
