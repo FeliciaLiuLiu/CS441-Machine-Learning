@@ -1,0 +1,29 @@
+1. In the programming assignment you segmented the sunset image with initialization_method= 'random_pixels'. 
+Try using initialization_method='kmeans' and compare the segmented images with both methods. Select all the options that apply.
+
+Ans:
+A. Consider areas that are smoother in the original image. The segmented images initialized through 'kmeans' produce 
+more clusters (following more closely the color gradients) than those initialized through 'random_pixels'
+
+B. Highly texturized areas in the original image result in similar segmented images independently of the initialization method used
+
+
+
+False:
+A. Segmented images look the same independently of the initialization method used
+
+
+
+2. In the programming assignment you segmented the sunset image using different numbers of clusters. 
+Compare the segmented images in terms of the number of clusters used. Select all the options that apply.
+
+Ans:
+A. The higher the number of clusters, the better the segmented image resembles the original image
+B. The signature on the bottom right is similar enough to the original image with 20 clusters
+
+
+
+False:
+A. The sun is only similar to the original image when using 50 clusters and up regardless of the initialization method
+
+
