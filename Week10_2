@@ -1,0 +1,40 @@
+1. If we run the EM for the topic model for the dataset in the programming assignment with the given parameters (30 topic classes and 100 iterations), 
+which topic class has the largest probability?
+
+Ans:
+A. Class 0
+
+
+False:
+A. Class 12
+B. Class 2
+
+
+
+2. Repeat question 1 with the same number of topic classes (30), but run the EM for the topic model for 10 iterations. 
+Which class has the largest probability now?
+
+Ans:
+A. Class 0
+
+False:
+A. Class 2
+B. Class 12
+
+
+
+3. If we run the EM topic model for the dataset in the programming assignment with the given parameters (30 topic classes and 100 iterations), 
+which of the following words shows up as the first most frequent word more often?
+
+Ans:
+A. Network
+
+False:
+A. Neural
+B. Model
+
+
+
+
+
+
