@@ -1,0 +1,41 @@
+1. Recall the notation from the assignment notebook, in the Boltzman machine of image denoising. 
+What is the conditional probability Pr(H_i = -1 | X_i = 1)?
+Ans:
+A.
+
+
+False:
+A. exp(-theta_pi) / ( exp(theta_pi) + exp(-theta_pi) )
+B. exp(theta_pi) / ( exp(theta_pi) + exp(-theta_pi) )
+
+
+
+2. Assume that we want to use variational inference to learn the value of parameters pi_i, which is precisely what we do in the programming assignment. 
+How should we infer the true value of pixel i (which is H_i)?
+
+Ans:
+A. If pi_i >= 0.5, we set H_i = 1
+
+False:
+A. If pi_i < 0.5, we set H_i = 1
+
+
+
+
+
+3. Recall the variable names from the programming assignment. 
+Assume that we set theta_X = 0.5 * np.log(1 / noise_flip_prob - 1) and theta_pi = 0. 
+If noise_flip_prob < 0.5, can we say anything about the estimated true pixel value given the observed pixel value X_i?
+
+Ans:
+
+
+
+False:
+A. It is more likely that the estimated value is the negative of X_i, but we can not say for sure.
+B. It is more likely that the estimated value is the same as X_i, but we can not say for sure.
+
+
+
+
+
