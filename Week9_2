@@ -1,0 +1,55 @@
+1.
+In the High-Dimensional Classification Programing assignment, we compare the accuracy obtained 
+for cross-validation when using up to 5 training items per class to that obtained when using the full set of samples. 
+What activities with somewhat high accuracy when using up to 5 training items go to an accuracy of 0 when using the full training set?
+
+Ans:
+A. Eat_soup and Lie_down.
+
+
+False:
+A. Sitdown_chair and Use_telephone.
+B. Brush_teeth and Eat_meat.
+
+
+
+2. Which of the following can be part of the reason why the accuracy changed the way it did in question 1?
+
+Ans:
+A. The number of available samples for those activities is among the smallest in the dataset.
+
+False:
+A. The number of available samples for those activities is among the highest in the dataset.
+B. The number of available samples for those activities is around the average in the dataset.
+
+
+
+
+3. Question 3
+In a similar comparison as in question 1, for what activities the accuracy went up from less than 0.5 
+when using up to 5 items in the training set to more than 0.7 when using the full training set?
+
+Ans:
+A. Pour_water and Standup_chair.
+
+False:
+A. Comb_hair and Use_telephone.
+B. Walk and Climb_stairs.
+
+
+
+
+4. Which of the following can be part of the reason why the accuracy changed the way it did in question 3?
+Ans:
+A. The number of available samples for those activities is among the highest in the dataset.
+
+False:
+A. The number of available samples for those activities is among the smallest in the dataset.
+B. The number of available samples for those activities is around the average in the dataset.
+
+
+
+
+
+
+
