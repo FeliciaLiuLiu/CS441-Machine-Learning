@@ -1,0 +1,84 @@
+1. Convolution
+
+Ans:
+A. can be computed for RGB images through a 3D version where each of the color intensities is encoded as a channel
+B. operates using an input image and a kernel which are both arrays with the same number of dimensions
+C. results in a large positive value when the pixels in the image match the corresponding pixels in the kernel
+D. is a commutative operation
+
+
+
+False:
+A. is valid for every pixel in an input image regardless of the size of the kernel used
+B. operates on an input image which is a 2D array and a kernel which is a 3D array
+C. is not commutative
+
+
+2. when convolutions are taken in strides of length s>1
+Ans:
+A. s is the number of steps taken in each dimension to move the convolutional kernel to compute the next convolution value
+B. the size of the output in each dimension is about the size of the input in each dimension divided by s
+
+False:
+A. s is always the same as the number of pixels in the convolutional kernel
+B. the size of the output in each dimension is  about the size of the input in each dimension multiplied by s
+
+
+
+3. A feature map with xf×yf pixels and $L$ layers taken from images with $x_i \times y_i$ pixels and D channels
+Ans:
+A. encodes pattern activation in locations in the image
+B. can be computed using L kernels represented as tensors of size ki×kj×D
+C. Holds the response to a collection of L patterns, or features, in the image and is computed through convolution
+
+
+False:
+A. Holds the response to a collection of $D$ patterns, or features, in the image and is computed through convolution
+B. has always the same number of layers as the number of channels in the input
+
+
+
+
+4. sequence of convolutional layers
+Ans:
+A. have a receptive field with respect to the input to the network 
+whose size depends on the settings on previous layers on stride lengths and kernel sizes
+
+False:
+A. have a receptive field with respect to the input to the network whose size depends only on the settings on previous layers on kernel sizes
+
+
+
+
+
+
+5. Padding
+Ans:
+A. allows to compute the convolution for every pixel in an input image
+B. expands the input image by k pixels on each of the four sides for the computation of the convolution for kernels with 2k+1 rows and columns
+
+
+False:
+A. shrinks the output image to ignore pixels where the convolution is invalid
+B. summarizes the pixels that align with the kernels by computing their maximum or their average
+
+
+
+
+
+
+6. A convolutional layer
+Ans:
+A. shares the kernel weights among the convolutional units associated to the same slice on the output feature map
+B. is trained to learn kernel weights and biases for its units
+C. implements the convolution operation through units whose weights are kernel values
+D. outputs a feature map that encodes in each slice the activation patterns encoded in the kernels whose parameters are learned
+E. can be setup with parameters that include the number of kernels, the number of channels, the stride length and the padding strategy used
+
+
+
+False:
+A. is trained to optimize the number of kernels to use
+B. has to be connected to a pooling layer always
+C. shares no kernel weights among the convolutional units associated to the same slice on the output feature map
+
