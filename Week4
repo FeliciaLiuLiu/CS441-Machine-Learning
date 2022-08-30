@@ -77,3 +77,12 @@ A. 0.001
 False:
 A. 0.01
 B. 1.0
+
+
+9. The coefficients in the regression (\betaβ)
+Ans:
+A. are obtained by minimizing the mean squared error over all the training examples
+
+False:
+A. are obtained by averaging the values for each explanatory variable
+
