@@ -64,3 +64,30 @@ B. may give a value of zero to coefficients of explanatory variables
 False:
 A. gives small but non-zero values to coefficients of explanatory variables with less importance
 B. penalizes the L2 norm of the coefficients
+
+
+
+
+
+7. Huber loss \rho(u,\sigma)ρ(u,σ)
+Ans:
+A. grows quadratically for small values of u \in [-\sigma,\sigma]u∈[−σ,σ]
+B. grows linearly for large values of |u| > \sigma∣u∣>σ
+
+
+False:
+A. grows at a cubic rate for small values of u \in [-\sigma,\sigma]u∈[−σ,σ]
+B. grows quadratically for large values of |u| > \sigma∣u∣>σ
+
+
+
+8. In regression models, errors caused by bias
+Ans:
+A. 
+
+
+False:
+A. can happen when the best model parameters are hard to estimate, and thus the model is not too specific.
+
+
+
