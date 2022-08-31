@@ -82,3 +82,20 @@ A. is trained to optimize the number of kernels to use
 B. has to be connected to a pooling layer always
 C. shares no kernel weights among the convolutional units associated to the same slice on the output feature map
 
+
+
+
+
+
+7. Convolution
+Ans:
+A. is invalid for some pixels in an input image for when the kernel has more than one row or more than one column
+B. is a linear operation
+C. for a given output u,v computes a weighted sum of the pixel values in an image that overlap a kernel centered at u,v that holds the weights
+
+
+
+False:
+A. cannot be computed as a dot product
+B. is a non-linear operation
+C. can only be computed for images in levels of grey
