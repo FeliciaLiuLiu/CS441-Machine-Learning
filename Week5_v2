@@ -50,13 +50,11 @@ what is the best value of log lambda and what is the corresponding test mean squ
 (Hint: you should look at Section 3.5 of the notebook, and look at the explanation for the variable Y_transform)
 
 Ans:
-A. 
-
+A. -11, 5.327
 
 
 False:
 A. -13, 10.706
 B. 13, 5.144
-
-
+C. -11, 4.815
 
