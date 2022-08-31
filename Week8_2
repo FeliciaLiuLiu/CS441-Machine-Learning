@@ -1,10 +1,11 @@
 1. In sklearn.cluster.KMeans, if we do not specify the number of clusters, how many clusters will we have?
 Ans:
-
+A. 8
 
 False:
 A. 2
 B. 4
+C. 3
 
 
 
@@ -27,12 +28,12 @@ C. [12.3,  1.2, 29. ,  1. ,  8.6, 14.4,  4.2, 22.4,  6.9]
 
 3. If we have a clustering of N data points in a space with dimension d, what is the range of the silhouettte score?
 Ans:
-
+A. [-1,1]
 
 False:
 A. [0,N-1]
 B. [-d,d]
-
+C. [0,1]
 
 
 
@@ -49,3 +50,31 @@ False:
 A. 1139.7
 B. 1614.5
 C. 275.9
+
+
+
+
+5. In sklearn.cluster.KMeans, which of the following parameters governs the number of iterations of the algorithm for a single run?
+Ans:
+
+
+
+False:
+A. tol
+
+
+
+
+
+6. For the k-means implementation that we had in the programming assignment, for k=3, how many data points fall into the cluster with cluster index 1? 
+(To answer this question, you will need to go back to the programming assignment and write some code to find the answer. 
+If you have already submitted the programming assignment, there is no need to re-submit the programming assignment after doing these calculations).
+
+Ans:
+
+
+
+False:
+A. 9
+
+
