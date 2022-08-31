@@ -12,13 +12,11 @@ B. there is only one possible decomposition always
 2. The following method is the best suited to make a 2-dimensional representation of a high-dimensional dataset 
 that preserves ratios of distances between data items
 Ans:
-A. Canonical Correlation Analysis
+A. Principal Coordinates Analysis 
 
 False:
 A. Principal Components Analysis
-B. Principal Coordinates Analysis 
-
-
+B. Canonical Correlation Analysis
 
 
 3. The covariance matrix Σ of a dataset X
@@ -45,3 +43,14 @@ A. provides all the principal components of X without numerical issues
 B. is impossible to apply when some item values are missing
 
 
+
+
+
+5. The following method associates datasets whose elements are correlated in pairs:
+Ans:
+A. Canonical Correlation Analysis
+
+
+False:
+A. Principal Coordinates Analysis 
+B. Principal Components Analysis
