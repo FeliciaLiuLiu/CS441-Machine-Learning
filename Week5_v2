@@ -1,11 +1,13 @@
 1. What is the value of the mean square error in Problem 1 when we apply the linear regression in the original coordinates
 (Section 1.1.1 in the notebook)?
 Ans:
+A. 2.80
 
 
 False:
 A. 1.67
 B. 52.08
+C. 42.35
 
 
 2. Question 2
@@ -32,9 +34,29 @@ B. Because we use logarithmic transformation.
 which of the following relations is more accurate in predicting the variable Y (blood sulfate level) 
 based on the variable X (hours since injection)? (here, a^b means a to the power of b)
 Ans:
-
+A. Y = - a X + b for some a, b > 0
 
 
 False:
 A. Y = a/X ^ b for some a, b > 0
 B. Y = aX ^ b for some a, b > 0
+C. Y = a X + b for some a, b > 0
+
+
+
+5. In Problem 3, if we apply cross validation for regularization in the original coordinates 
+(which means predicting the original labels and not the logarithmically transformed labels), 
+what is the best value of log lambda and what is the corresponding test mean square error? 
+(Hint: you should look at Section 3.5 of the notebook, and look at the explanation for the variable Y_transform)
+
+Ans:
+A. 
+
+
+
+False:
+A. -13, 10.706
+B. 13, 5.144
+
+
+
