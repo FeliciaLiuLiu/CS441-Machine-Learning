@@ -77,3 +77,43 @@ False:
 A. has a backward pass to propagate inputs to the output
 B. has a forward pass where the gradient of the loss is propagated from the output towards the input
 
+
+
+
+
+
+6. A softmax layer in a Neural Network
+Ans:
+A. Is connected the output of nonlinear units to provide outputs with estimate of the probability of the input to belong to that class
+B. Is a generalization of the sigmoid function to NN dimensions, where NN is the number of classes, and outputs in the layer
+C. Balances the probabilities among all the outputs in the unit so they sum 1
+
+
+False:
+A. has an output encoded as a one-hot vector with one code per class
+B. has an output of 1 for the class with the maximum probability and 0 for all the other classes
+
+
+
+
+
+7. When applying Stochastic Gradient Descent to train a Neural Networks
+Ans:
+A. training is split into epochs where only a subset of the dataset (called minibatch) is used
+B. the step size or learning rate is reduced as the epochs increase
+C. one option for parameter initialization is to make them random values with a small standard deviation and ensure that not all of them are 0
+D. it is useful to preprocess the inputs so that they have zero mean and unit standard deviation
+
+
+
+False:
+A. the initial values of the parameters have no impact on training performance
+B. the initial values of the parameters have to have unit standard deviation
+C. the parameters have to be reset to random values after each training epoch in order to ensure a uniform exploration of the space
+
+
+
+
+
+
+
