@@ -1,12 +1,14 @@
 1. Recall the notation from the assignment notebook, in the Boltzman machine of image denoising. 
 What is the conditional probability Pr(H_i = -1 | X_i = 1)?
 Ans:
-A.
+A. exp(-theta_X) / ( exp(theta_X) + exp(-theta_X) )
 
 
 False:
 A. exp(-theta_pi) / ( exp(theta_pi) + exp(-theta_pi) )
 B. exp(theta_pi) / ( exp(theta_pi) + exp(-theta_pi) )
+C. exp(theta_X) / ( exp(theta_X) + exp(-theta_X) )
+
 
 
 
@@ -28,14 +30,13 @@ Assume that we set theta_X = 0.5 * np.log(1 / noise_flip_prob - 1) and theta_pi 
 If noise_flip_prob < 0.5, can we say anything about the estimated true pixel value given the observed pixel value X_i?
 
 Ans:
-
+A. Estimated pixel value is the same as X_i.
 
 
 False:
 A. It is more likely that the estimated value is the negative of X_i, but we can not say for sure.
 B. It is more likely that the estimated value is the same as X_i, but we can not say for sure.
-
-
+C. Estimated pixel value is the negative of X_i.
 
 
 
