@@ -13,11 +13,12 @@ C. The Box-Cox transformation did not help since R^2 didn't change
 2. Consider the application of Ridge Regression and Lasso Regression when fitting music latitude. 
 What of the following parameters lead to better performance?
 Ans:
-
+A. Lasso Regression with log(lambda) around 0 and 17 features considered
 
 False:
 A. Lasso Regression with log(lambda) around -2 and 17 features considered
 B. Lasso Regression with log(lambda) around -2 and 64 features considered
+C. Ridge Regression with log(lambda) around 2 and 117 features considered
 
 
 3. Consider the plots produced in the problem of predicting credit card defaults that show the number of non-zero coefficients, 
