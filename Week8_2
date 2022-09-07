@@ -56,13 +56,12 @@ C. 275.9
 
 5. In sklearn.cluster.KMeans, which of the following parameters governs the number of iterations of the algorithm for a single run?
 Ans:
-
-
+A. max_iter
 
 False:
 A. tol
-
-
+B. n_init
+C. n_clusters
 
 
 
